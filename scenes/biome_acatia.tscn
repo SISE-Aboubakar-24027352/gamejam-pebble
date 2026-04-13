@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://bes5ot53jonar"]
+
+[ext_resource type="Texture2D" uid="uid://g0uqcjq1omus" path="res://sprites/biome_acatia/preview.png" id="1_t7ge3"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_tt8na"]
+size = Vector2(13.3192835, 8.582866)
+
+[node name="BiomeAcatia" type="Node2D" unique_id=273685216]
+
+[node name="Area2D" type="Area2D" parent="." unique_id=1619832578]
+metadata/_edit_group_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="Area2D" unique_id=2024063844]
+texture = ExtResource("1_t7ge3")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=1796529987]
+position = Vector2(16.000004, 8.22597)
+scale = Vector2(12.012659, 5.645194)
+shape = SubResource("RectangleShape2D_tt8na")
